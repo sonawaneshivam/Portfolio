@@ -692,16 +692,16 @@ nav .fa-solid {
         font-size: 30px;
         margin-top: 30px;
     }
-    .typing-container {
+    .typing-container1 {
         font-family: 'Courier New', Courier, monospace;
         border-right: 2px solid red;
         white-space: nowrap;
         overflow: hidden;
         width: 0;
-        animation: typing-reverse 5s ease-in-out infinite, blink 0.5s step-end infinite;
+        animation: typing-reverse1 5s ease-in-out infinite, blink 0.5s step-end infinite;
     }
     
-    @keyframes typing-reverse {
+    @keyframes typing-reverse1 {
         0% {
             width: 0;
         }
