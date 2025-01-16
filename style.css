@@ -490,8 +490,37 @@ nav .fa-solid {
         padding: 10px 10px;
     }
     .headrt_tex h1 {
-        font-size: 60px;
+        font-size: 45px;
         margin-top: 45px;
+    }
+    .typing-container {
+        font-family: 'Courier New', Courier, monospace;
+        border-right: 2px solid red;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        animation: typing-reverse 5s ease-in-out infinite, blink 0.5s step-end infinite;
+    }
+    
+    @keyframes typing-reverse {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 9ch;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    
+    @keyframes blink {
+        from {
+            border-right-color: red;
+        }
+        to {
+            border-right-color: transparent;
+        }
     }
 }
 
@@ -562,6 +591,39 @@ nav .fa-solid {
         left: 25px;
         cursor: pointer;
     }
+    .headrt_tex h1 {
+        font-size: 55px;
+        margin-top: 55px;
+    }
+    .typing-container {
+        font-family: 'Courier New', Courier, monospace;
+        border-right: 2px solid red;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        animation: typing-reverse 5s ease-in-out infinite, blink 0.5s step-end infinite;
+    }
+    
+    @keyframes typing-reverse {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 15ch;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    
+    @keyframes blink {
+        from {
+            border-right-color: red;
+        }
+        to {
+            border-right-color: transparent;
+        }
+    }
 }
 @media only screen and (max-width: 390px) {
     #head {
@@ -627,8 +689,37 @@ nav .fa-solid {
         padding: 10px 10px;
     }
     .headrt_tex h1 {
-        font-size: 60px;
+        font-size: 30px;
         margin-top: 30px;
+    }
+    .typing-container {
+        font-family: 'Courier New', Courier, monospace;
+        border-right: 2px solid red;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        animation: typing-reverse 5s ease-in-out infinite, blink 0.5s step-end infinite;
+    }
+    
+    @keyframes typing-reverse {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 7ch;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    
+    @keyframes blink {
+        from {
+            border-right-color: red;
+        }
+        to {
+            border-right-color: transparent;
+        }
     }
 }
 
