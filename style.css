@@ -436,7 +436,7 @@ nav .fa-solid {
     }
 
     .headrt_tex h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     nav .fa-solid {
@@ -448,8 +448,8 @@ nav .fa-solid {
         background: #ff004f;
         position: fixed;
         top: 0;
-        right: -200px;
-        width: 200px;
+        right: -40%;
+        width: 40%;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -476,6 +476,15 @@ nav .fa-solid {
 
     .copyright {
         font-size: 14px;
+    }
+    nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .typing-container span{
+        font-size: 35px;
     }
 }
 
@@ -506,8 +515,8 @@ nav .fa-solid {
         background: #ff004f;
         position: fixed;
         top: 0;
-        right: -200px;
-        width: 200px;
+        right: -40%;
+        width: 40%;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -536,8 +545,18 @@ nav .fa-solid {
     .copyright {
         font-size: 14px;
     }
+    nav ul li {
+        display: block;
+        margin: 20px;
+    }
+    nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 390px) {
     #head {
         background-image: url("./imgaes/one.png");
         background-repeat: no-repeat;
@@ -545,22 +564,25 @@ nav .fa-solid {
         height: 100%;
     }
     .headrt_tex {
-        margin-top: 80%;
-        font-size: 14px;
+        margin-top: 50%;
+        font-size: 12px;
+    }
+    .typing-container span{
+        font-size: 25px;
     }
     .headrt_tex h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     nav .fa-solid {
         display: block;
-        font-size: 20px;
+        font-size: 25px;
     }
     nav ul {
         background: #ff004f;
         position: fixed;
         top: 0;
-        right: -200px;
-        width: 200px;
+        right: -40%;
+        width: 40%;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -577,7 +599,7 @@ nav .fa-solid {
         cursor: pointer;
     }
     .sub_title {
-        font-size: 30px;
+        font-size: 40px;
     }
     .about-col-1, .about-col-2 {
         flex-basis: 100%;
@@ -586,13 +608,14 @@ nav .fa-solid {
         margin-bottom: 30px;
     }
     .about-col-2 {
-        font-size: 12px;
+        font-size: 14px;
     }
     .contact-left, .contact-right {
         flex-basis: 100%;
     }
     .copyright {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
+
 
