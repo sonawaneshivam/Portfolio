@@ -486,6 +486,9 @@ nav .fa-solid {
     .typing-container span{
         font-size: 35px;
     }
+    .container {
+        padding: 10px 10px;
+    }
 }
 
 /* Responsive Styles for Tablets (600px to 1024px) */
@@ -615,6 +618,9 @@ nav .fa-solid {
     }
     .copyright {
         font-size: 14px;
+    }
+    .container {
+        padding: 10px 10px;
     }
 }
 
