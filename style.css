@@ -489,6 +489,10 @@ nav .fa-solid {
     .container {
         padding: 10px 10px;
     }
+    .headrt_tex h1 {
+        font-size: 60px;
+        margin-top: 45px;
+    }
 }
 
 /* Responsive Styles for Tablets (600px to 1024px) */
@@ -501,7 +505,7 @@ nav .fa-solid {
     }
 
     .headrt_tex {
-        margin-top: 70%;
+        margin-top: 50%;
         font-size: 16px;
     }
 
@@ -621,6 +625,10 @@ nav .fa-solid {
     }
     .container {
         padding: 10px 10px;
+    }
+    .headrt_tex h1 {
+        font-size: 60px;
+        margin-top: 30px;
     }
 }
 
