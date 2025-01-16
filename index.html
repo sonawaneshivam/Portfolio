@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon"
+        href="https://thumbs.dreamstime.com/b/portfolio-icon-signs-symbols-graphic-elements-your-design-portfolio-icon-symbol-116470432.jpg"
+        type="image/jpeg">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="fixed z-50 bottom-5 right-5">
+        <a href="https://wa.me/9373045456?text=Hii%20Shivam%20" target="_blank" rel="noopener noreferrer"
+            class="flex items-center justify-center w-16 h-16 text-white bg-teal-500 rounded-full shadow-lg hover:bg-teal-600"
+            aria-label="Chat with Gaurav on WhatsApp">
+            <i class="fab fa-whatsapp w-9 h-13" style="font-size: 45px;"></i>
+        </a>
+    </div>
+    <div id="head">
+        <div class="container">
+            <nav>
+                <h1><span>S</span>hivam</h1>
+                <ul id="sidemenu">
+                    <li><a href="#head">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headrt_tex">
+                <h1>Hi, I'm <br>
+                    <div class="typing-container"><span style="color: red;">Shivam Sonawane</span></div>
+                </h1>
+                <p> FULL STACK DEVELOPER </p>
+                <p>From Pune, Maharashtra</p>
+
+            </div>
+        </div>
+    </div>
+    <!-- about information -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./imgaes/real.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub_title">About Me</h1>
+                    <p>"I specialize in creating efficient, scalable, and user-friendly software solutions. With
+                        expertise in Java, Spring, and web development, I aim to deliver applications that combine
+                        functionality with visually appealing design. My passion lies in building reliable back-end
+                        systems and seamlessly integrating them with intuitive, engaging front-end interfaces.On the
+                        front-end, I work with technologies such as HTML5, CSS3, JavaScript, and frameworks like React
+                        to create dynamic, user-centric interfaces."</p>
+
+                    <div class="tab-tiles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab_contains active-tab" id="Skills">
+                        <ul>
+                            <li><span>Java/Spring</span><br>Designing and implementing scalable and secure web and
+                                application backends using Java and the Spring framework. </li><br>
+                            <li><span>HTML/CSS/JavaScript/Bootstrap</span><br>Creating responsive, interactive, and
+                                modern web applications with a focus on user experience.</li><br>
+                            <li><span>MySQL</span><br>Designing, managing, and optimizing relational databases for
+                                scalable applications.</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contains" id="Education">
+                        <ul>
+                            <li><span>2023 </span><br>BE(CSE) :-Shri Chhatrapati
+                                Shivajiraje College
+                                of Engineering,Pune </li><br>
+                            <li><span>2019 </span><br>12th:-Raja Raghunath Rao Vidyalaya, Bhor </li><br>
+                            <li><span>2017</span><br>10th :- Raja Raghunath Rao Vidyalaya, Bhor </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Services          -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub_title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fab fa-java fa-3x mb-3"></i>
+                    <h2>Java Development </h2>
+                    <p>I specialize in building scalable and reliable applications using Java, Spring, and Spring Boot.
+                        I focus on creating efficient back-end systems and RESTful APIs.With a strong understanding of
+                        object-oriented programming (OOP) principles and design patterns.</p>
+
+
+                </div>
+                <div>
+                    <i class="fas fa-code fa-3x mb-3"></i>
+                    <h2>Web Development </h2>
+                    <p>I create responsive websites using HTML, CSS, JavaScript, and Bootstrap, ensuring they are
+                        user-friendly, fast, and mobile-optimized. My focus is on delivering designs that are visually
+                        appealing and provide a seamless user experience across devices</p>
+
+
+                </div>
+                <div>
+                    <i class="fas fa-database fa-3x mb-3"></i>
+                    <h2>Database Management </h2>
+                    <p>I design, manage, and optimize databases using MySQL, ensuring secure, efficient, and reliable
+                        data handling for a wide range of applications. My expertise includes schema design, query
+                        optimization, and implementing best practices for data storage and retrieval to enhance
+                        performance and scalability.</p>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub_title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./imgaes/blood.jpg" alt="">
+                    <div class="layer">
+                        <h3>Blood Mangement System</h3>
+                        <p>To create an efficient and transparent online blood bank system that helps people in need of
+                            blood within the same city. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./imgaes/hotel.jpg" alt="">
+                    <div class="layer">
+                        <h3>Hotel Recommandation System</h3>
+                        <p>To develop a console-based application that recommends hotels using a content-based filtering
+                            algorithm.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./imgaes/Portfolio.jpg" alt="">
+                    <div class="layer">
+                        <h3>PortFolio</h3>
+                        <p>Created a dynamic portfolio using HTML, JavaScript, and css, highlighting my web development
+                            projects and showcasing skills in responsive design and user-friendly interfaces. only add
+                            htm css and javascript</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact  -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub_title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>shiv.sonawane09@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-square-alt"></i>9373045456</p>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/__shivam__3069/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shivam-sonawane-b92287235"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sonawaneshivam"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <!-- refrence of resume and download -->
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="msg" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Shivam Sonawane.All rights reserved</p>
+        </div>
+    </div>
+
+
+    <script>
+        //for tab links
+        // Get all tab links and tab contents
+        var tablink = document.getElementsByClassName("tab-links");
+        var tabconatin = document.getElementsByClassName("tab_contains");
+
+        function opentab(tabname) {
+            // Remove active classes from all tabs
+            for (let tablinks of tablink) {
+                tablinks.classList.remove("active-link");
+            }
+            for (let tabconatins of tabconatin) {
+                tabconatins.classList.remove("active-tab");
+            }
+
+            // Add the active-link class immediately to the clicked tab
+            event.currentTarget.classList.add("active-link");
+
+            // Add a delay before showing the content
+            setTimeout(() => {
+                document.getElementById(tabname).classList.add("active-tab");
+            }, 200); // Adjust the delay in milliseconds (e.g., 300ms)
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxaHPUMEN_zIMQj3Gjz_E6AnSGY06riedApzi2mWkvcsDoRQC1mMR499xaba3PCLeOUDw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    form.reset()
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 3000)
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
